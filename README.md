@@ -4,6 +4,7 @@ This project involves the creation of a Convolutional Neural Network (CNN) to cl
 
 ## Dataset
 
+One can access the training dataset from https://www.kaggle.com/datasets/alxmamaev/flowers-recognition
 The dataset used for training the model is organized into categories, with each category representing a type of flower. The images are preprocessed, resized to 224x224 pixels, and converted to the RGB color space.
 
 ## Data Preparation
