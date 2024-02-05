@@ -21,3 +21,10 @@ The model is trained on the prepared dataset with 90% of the data used for train
 ## Testing and Evaluation
 
 The trained model is loaded, and its performance is evaluated on the test set. The evaluation includes metrics such as accuracy. Additionally, predictions are visualized on a sample of test images, showing both the actual and predicted flower categories.
+
+
+![image](https://github.com/Poojan38380/Flower-Classification-Convolutional-Neural-Network/assets/119067163/dd2d2e30-f902-43b4-ac45-37dad4c68513)
+
+# It will take a lot of RAM(just warning)
+![Screenshot 2024-02-05 190643](https://github.com/Poojan38380/Flower-Classification-Convolutional-Neural-Network/assets/119067163/cf2d9bda-9836-4620-b800-c85c74f12f4a)
+
