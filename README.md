@@ -17,6 +17,22 @@ The CNN model is constructed using TensorFlow and Keras. It consists of convolut
 ## Training
 
 The model is trained on the prepared dataset with 90% of the data used for training and 10% for testing. The training process is run for 15 epochs with a batch size of 80. The trained model is saved as `mymodel.keras`.
+### for increased accuracy the user can change the following codes and set the convolutions accordingly :
+
+```
+conv1= tf.keras.layers.Conv2D(filters=32, kernel_size=(5,5), activation='relu',padding='same')(input_layer)
+pool1 = tf.keras.layers.MaxPooling2D(pool_size=(2,2))(conv1)
+
+conv2= tf.keras.layers.Conv2D(filters=64, kernel_size=(3,3), activation='relu',padding='same')(pool1)
+pool2 = tf.keras.layers.MaxPooling2D(pool_size=(2,2),strides=(2,2))(conv2)
+
+conv3= tf.keras.layers.Conv2D(filters=64, kernel_size=(3,3), activation='relu',padding='same')(pool2)
+pool3 = tf.keras.layers.MaxPooling2D(pool_size=(2,2),strides=(2,2))(conv3)
+
+conv4= tf.keras.layers.Conv2D(filters=96, kernel_size=(3,3), activation='relu',padding='same')(pool3)
+pool4 = tf.keras.layers.MaxPooling2D(pool_size=(2,2),strides=(2,2))(conv4)
+```
+
 
 ## Testing and Evaluation
 
